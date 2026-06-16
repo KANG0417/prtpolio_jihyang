@@ -1,0 +1,167 @@
+Create a personal developer portfolio website with the following specifications:
+
+---
+
+## Concept & Tone
+- Designer: Junior-to-Senior transitioning frontend developer
+- Vibe: Clean, modern, slightly bold — not over-designed, but clearly intentional
+- Subtle animations and micro-interactions to show frontend sensibility
+- Dark or light mode supported (default: dark preferred)
+
+---
+
+## Personal Info
+- Name: 지향 (Ji-hyang)
+- Role: Frontend Developer
+- Tagline: "주니어에서 시작해, 풀스택으로 성장 중인 프론트엔드 개발자"
+
+---
+
+## Tech Stack Section
+Display skill badges or icons grouped by category:
+
+**Frontend**
+- HTML, CSS, JavaScript, React, Next.js
+
+**Database**
+- MySQL, Supabase
+
+---
+
+## Career / Experience Section
+List in reverse chronological order:
+
+1. **현 직장 — 마더클럽 (Motherclub)**
+   - Next.js 기반 서비스 신규 개발 (풀스택 단독 개발)
+   - Node.js / Prisma / MySQL / Docker 운영
+   - Claude API 연동, Bunny.net 영상 스트리밍 파이프라인 구축
+
+2. **디지털서커스**
+   - Adobe Animate / CreateJS 기반 인터랙티브 학습 프로그램 유지보수
+   - HTML/CSS 유지보수 및 크로스브라우저 대응
+
+---
+
+## Projects Section (dedicated page or section)
+Each project card should include:
+- Project name
+- Short description
+- Tech stack used (tags)
+- GitHub link + Live demo link (placeholder OK)
+- Optional: thumbnail or mockup image slot
+
+Preload with these placeholder projects (I will fill in details later):
+1. 마더클럽 (Motherclub) — EdTech platform
+2. DocsLingo — Developer documentation translation tool (Next.js + Claude API + Supabase)
+3. Carbon Emissions Dashboard — PCF visualization dashboard (Next.js + Recharts + Supabase)
+
+---
+
+## Sections Required
+1. Hero — name, role, short bio, CTA buttons (GitHub / Contact)
+2. About — brief intro paragraph, photo slot
+3. Skills — grouped tech stack
+4. Experience — career timeline or card list
+5. Projects — grid of project cards (most important section, give it space)
+6. Contact — email + GitHub + optional blog link
+
+---
+
+## Tech Stack to Use for the Portfolio Itself
+- Next.js (App Router)
+- Tailwind CSS
+- Framer Motion for animations
+- TypeScript
+- Static site (no backend needed)
+
+---
+
+## Additional Notes
+- Mobile responsive is a must
+- Keep the code clean and component-based (good folder structure)
+- Add smooth scroll and subtle entrance animations per section
+- No unnecessary libraries — keep it lean
+- Comments in code where helpful
+
+Redesign the portfolio UI with the following design direction:
+
+---
+
+## Overall Concept
+- Theme: Creative & distinctive — not a generic developer template
+- Must stand out from typical portfolio sites while still feeling professional
+- Dark / Light mode toggle supported (default: Dark)
+
+---
+
+## Visual Style
+- Bold typography with intentional font size contrast (large hero text, small labels)
+- Asymmetric layouts where appropriate — avoid boring centered-everything grids
+- Subtle but satisfying micro-interactions (hover effects, scroll-triggered animations)
+- Use Framer Motion for entrance animations per section
+- Cursor custom effect or subtle interactive element on hero section
+
+---
+
+## Color System
+### Dark Mode
+- Background: near-black (#0a0a0a or #0f0f0f)
+- Primary accent: electric indigo or violet (#6366f1 or similar)
+- Secondary accent: soft cyan or mint for contrast
+- Text: off-white (#f0f0f0), muted gray for secondary text
+
+### Light Mode
+- Background: warm off-white (#fafaf9)
+- Same accent colors, slightly deeper
+- Text: deep charcoal (#1a1a1a)
+
+---
+
+## Typography
+- Hero heading: 80–96px, bold or black weight, tight letter-spacing
+- Use a modern sans-serif (e.g. Inter, Geist, or Sora via Google Fonts)
+- Section titles: large, with a thin decorative line or number prefix (e.g. "01. About")
+- Body text: 16px, comfortable line-height (1.7)
+
+---
+
+## Layout Details
+### Hero Section
+- Full viewport height
+- Large name text with a subtle gradient or glitch/shimmer effect
+- Animated role text (typewriter or word-swap animation)
+- Floating abstract shape or grid pattern in background (CSS or canvas — keep it light)
+- CTA buttons: outlined style, hover fills with accent color
+
+### Skills Section
+- Skill badges with icons, grouped by category
+- Hover reveals proficiency or short note
+
+### Projects Section
+- Large cards with image/mockup placeholder
+- Card hover: slight lift + accent border glow
+- Tag chips for tech stack
+
+### Experience Section
+- Vertical timeline with accent-colored dots and connecting line
+- Each entry slides in on scroll
+
+---
+
+## Do's and Don'ts
+✅ Use CSS variables for all colors (easy theme switching)
+✅ Smooth scroll, section transitions
+✅ Mobile-first responsive
+✅ Clean component structure (one component per section)
+❌ No stock photo backgrounds
+❌ No rainbow/excessive color use
+❌ No heavy JS libraries beyond Framer Motion
+❌ Don't make it look like every other Tailwind portfolio
+
+---
+
+## Implementation Notes
+- Tailwind CSS with custom theme extension for colors
+- next-themes for dark/light toggle
+- Framer Motion for all animations
+- Keep bundle size lean
